@@ -1,0 +1,63 @@
+body{
+    background: pink;
+   
+}
+.main{
+     height: auto;
+     width: 30%;
+     margin-left: 530px;
+     margin-top: 35px;
+     background: rgb(248, 248, 248);
+     display: flex;
+     flex-direction: column;
+    //  align-items: center;
+     justify-content: center;
+     gap: 9px;
+     border: 1px solid black;
+     border-radius: 1rem;
+     
+
+
+     #m{
+        font-size: 50px;
+        font-style: italic;
+     }
+    .card{
+        display: flex;
+       
+
+       
+        .images{
+            padding-left: 19px;
+            border-radius:70%;
+          
+        }
+        .con{
+            padding-left: 90px;
+            margin-top: 20px;
+        }
+        
+    }
+    .btn{
+       padding: 10px;
+        border: none;
+        border-radius: 1rem;
+        width: 80%;
+        margin-left: 10%;
+        background: rgb(255, 89, 116);
+        font-weight: 400;
+        font-size: larger;
+        margin-bottom: 10px;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    background: rgb(218, 210, 210);
+
+  
+
+}

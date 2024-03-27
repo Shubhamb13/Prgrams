@@ -1,0 +1,76 @@
+$bgcolor:linear-gradient( to right ,rgb(228,231,236),rgb(193,220,254));
+@mixin diiv{
+    height: 600px;
+    width: 50% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+}
+.nav{
+    
+   background: $bgcolor;
+}
+.main{
+    background: $bgcolor;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    
+    .main1{
+       @include diiv();
+
+       .btn1{
+          margin: 10px;
+       }
+    }
+    .main2{
+        height: 600px;
+        width: 50% ;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+
+
+       .mimg{
+        height: 510px;
+        width: 65%;
+        border-radius: 76%;
+        background-color: yellow;
+       
+        
+     
+        
+       }
+        
+    }
+    
+}
+.sec{
+    height: 500px;
+    width: 100%;
+      
+
+    .flex{
+        height: 500px;
+        width: 100%;
+    
+    }
+
+    .flex1{
+        height: 400px;
+        width: 50% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    }
+    .flex2{
+        height: 600px;
+        width: 50% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    }
+}

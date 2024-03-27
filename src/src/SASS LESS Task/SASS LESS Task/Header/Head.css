@@ -1,0 +1,41 @@
+.headdiv{
+    height: 700px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background: url('https://cdn.pixabay.com/photo/2017/01/19/23/46/church-1993645_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; 
+}
+p{
+    width: 600px;
+    text-align: left;
+    font-size: 20px
+}
+img{
+    height:300px;
+    width:300px;
+    border: 2px solid rgb(123, 110, 110);
+    box-shadow: 5px 5px 15px;
+    transition: transform 0.3s ease; 
+}
+img:hover{
+    transform: scale(1.05);
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:rgb(143, 2, 28);
+    width: 120px;
+    border: transparent;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgb(35, 35, 35);
+}

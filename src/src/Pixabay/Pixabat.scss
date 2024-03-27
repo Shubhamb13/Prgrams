@@ -1,0 +1,71 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+
+    .inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-bottom: 30px; // Adjust as needed
+        }
+    }
+}
+
+.head{
+    height: 440px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/index/2024/02/23/00-50-10-542_1920x550.png");
+    background-size: cover;
+    background-color: rgba(63, 60, 60, 0.5);
+    background-blend-mode: darken;
+
+    .navbar {
+        height: 80px;
+        width: 100%;
+       
+        
+        .list {
+            display: flex;
+            width: 100%;
+            color: white;
+            justify-content: center;
+            gap: 50px;
+            justify-items: center;
+            align-items: center;
+            position: fixed;
+        }
+     .flex1{
+
+        padding-left: 70%;
+     }
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 1010px;
+            color: black;
+        }
+    }
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul:hover {
+    transform: scale(1.1);
+}
+.in:hover {
+    transform: scale(1.1);
+}
+.nav2 li:hover{
+    border-bottom: 2px solid rgb(7, 14, 7);
+}

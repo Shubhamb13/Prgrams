@@ -1,0 +1,26 @@
+
+.sec{
+    display: flex;
+    background: black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    justify-items: center;
+     width: 100%;
+    position:fixed;  
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+  
+
+}
+.div1
+{
+    height: 100px;
+    width: 200px;
+    background: green;
+    background-repeat: repeat;
+}

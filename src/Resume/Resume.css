@@ -1,0 +1,163 @@
+.heh{
+    font-size: 100px;
+    background: -webkit-image-set("https://media.tenor.com/Nk-Pq4dkzk4AAAAC/anime-clouds.gif");
+    background-clip: text;
+    background-position-y: -100px;
+    -webkit-text-fill-color: transparent;
+    margin-right: 50px;
+}
+nav{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+#navid{
+    display: flex;
+    gap: 30%;
+    justify-content: flex-start;
+}
+#logo{
+    display: flex;
+    gap: 30%;
+}
+
+.De{ 
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background: -webkit-image-set("https://i.pinimg.com/originals/d4/3c/11/d43c11d76c7db33af616426597e88833.gif");
+    background-clip: text;
+    background-position-y: -200px;
+    -webkit-text-fill-color: transparent;
+
+}
+#col{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: -webkit-image-set("https://media.wired.com/photos/5b33354e572ae17d05ab1e55/master/w_1600%2Cc_limit/NyanCat.gif");
+    background-clip: text;
+    background-position-y: -100px;
+    -webkit-text-fill-color: transparent;
+}
+.head{
+    background: url("https://i.etsystatic.com/21918484/r/il/5b9f79/2333568395/il_fullxfull.2333568395_oexy.jpg");
+    height: 80vh;
+    width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-position-x:0 ;
+    background-position-y:0 ;
+    background-size: cover;
+}
+@media screen and (max-width: 1040px){
+.head{
+    background: url("https://i.etsystatic.com/21918484/r/il/5b9f79/2333568395/il_fullxfull.2333568395_oexy.jpg");
+    background-position: 50%;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+}
+
+
+.maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 400px;
+}
+button{
+    background-color: gray;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.maindiv button {
+    background-color: gray;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000;
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+p{
+    font-size: 17px;
+    align-items: center;
+}
+
+.sec{
+    background-color: #b05d5d;
+    
+}
+
+.set,.skill{
+    display: flex;
+    align-items: center;
+    background-color: #b05d5d;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 1rem;
+}
+.skill .set{
+    background: gray;
+    border: 1px solid #000;
+    color: #fff;
+    height: 70px;
+    justify-content: space-around;
+    width: 350px;
+
+}
+
+
+
+.footcl{
+    background-color: #000;
+    color: #f5f5f5;
+    gap: 30px;
+    height: 300px;
+    
+}
+
+.div2 button{
+    background: grey;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.div2{
+    width: 450px;
+}
+
+.div2, .footcl{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}

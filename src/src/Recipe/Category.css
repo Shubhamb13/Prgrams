@@ -1,0 +1,15 @@
+.sec{
+    
+    display: flex;
+    overflow: auto;
+    gap: 2px;
+    justify-content: center;
+}
+.cards{
+    background-color: rgb(211, 205, 205);
+    align-items: center;
+    justify-content: center;
+}
+.cards:hover{
+    transform: scale(1.2);
+}

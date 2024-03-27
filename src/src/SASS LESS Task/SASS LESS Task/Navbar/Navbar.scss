@@ -1,0 +1,21 @@
+.navdiv{
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    .navbar-list{
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        padding: 15px;
+        .navbar-link{
+            text-decoration: none;
+            color: white;
+            font-size: 20px; 
+            transition: color 0.3s ease;;
+            &:hover {
+                color: #aca4a4;
+            }
+        }
+    }
+}
+

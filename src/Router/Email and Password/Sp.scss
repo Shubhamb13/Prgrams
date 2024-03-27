@@ -1,0 +1,21 @@
+.Signup{
+    height: 220px;
+    width: 20%;
+    background: rgb(225, 134, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 40%;
+
+    input{
+        padding :10px;
+        margin: 10px;
+        border: none;
+    }
+    button{
+        padding: 5px;
+        border-radius: 0.2rem;
+        border: none;
+        margin-left: 65px;
+    }
+}
