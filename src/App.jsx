@@ -1,18 +1,13 @@
-// import Home from "./Intern/Home"
-// import Component from './Intern/Component'
-import Lighthome from "./Intern/Lighthome"
-import Lightcom from "./Intern/Lightcom"
 
+import Pixabay from './Pixabay/Pixabay'
 
 
 const App = () => {
   return (
 
     <div className='App'>
-      {/* <Home/> */}
-      {/* <Component/> */}
-      <Lighthome/>
-      <Lightcom/>
+      
+      <Pixabay/>
       
     </div>
    
